@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Plus Jakarta Sans', sans-serif;
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
   justify-content: center;
   height: 100vh;
@@ -33,13 +33,14 @@ main {
   padding: 0.5rem 1.5rem;
 }
 .header-left h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .header-left span {
   background-color: hsl(219, 85%, 26%);
   color: white;
   border: 5px solid hsl(219, 85%, 26%);
-  border-radius: 5px;
+  border-radius: 150px;
+  /* border-width: 2px; */
 }
 .header-right {
   margin-left: auto;
@@ -59,4 +60,7 @@ main {
 }
 .card-image img {
   height: 40px;
+}
+.card-body {
+  margin: auto .2rem;
 }
